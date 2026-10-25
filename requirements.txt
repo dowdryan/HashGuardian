@@ -1,0 +1,5 @@
+adaption==0.15.0
+streamlit>=1.36,<2.0
+peft==0.21.2 
+torch
+transformers 

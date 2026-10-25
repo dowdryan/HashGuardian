@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.vscode/
+.idea/
+.DS_Store
+EOF
+fim_event_classification.csv
