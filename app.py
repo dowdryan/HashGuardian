@@ -144,8 +144,8 @@ def analyze_event_locally(event: dict) -> dict:
     return {"risk": level, "summary": rationale,
             "ai_status": "Local rule-based fallback; no remote AI inference performed."}
 
-st.set_page_config(page_title="File Integrity Monitor", page_icon="🛡️", layout="wide")
-st.title("🛡️ File Integrity Monitor")
+st.set_page_config(page_title="HashGuardian", page_icon="🛡️", layout="wide")
+st.title("🛡️ HashGuardian")
 st.caption("SHA-256 integrity verification with an optional AI analysis integration.")
 st.warning("Prototype: create the baseline from a trusted, clean state. Store the database and backups with appropriate access controls; this app does not prevent tampering by a privileged attacker.")
 
