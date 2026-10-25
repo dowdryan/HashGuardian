@@ -9,4 +9,3 @@ venv/
 .idea/
 .DS_Store
 EOF
-fim_event_classification.csv
